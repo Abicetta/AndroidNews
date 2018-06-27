@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingEnd="@dimen/padding_main"
+    android:paddingLeft="@dimen/padding_main"
+    android:paddingRight="@dimen/padding_main"
+    android:paddingStart="@dimen/padding_main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium">
+
+        <TextView
+            android:id="@+id/section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small"
+            android:background="@color/colorAccent"
+            android:gravity="center_vertical"
+            android:paddingBottom="@dimen/small"
+            android:paddingLeft="@dimen/small"
+            android:paddingTop="@dimen/small"
+            android:textColor="@android:color/white"
+            tools:text="Technology" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@id/section"
+            android:layout_gravity="start"
+            android:layout_marginTop="@dimen/small"
+            android:paddingBottom="@dimen/small"
+            android:paddingRight="@dimen/small"
+            android:paddingTop="@dimen/small"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/date"
+            tools:text="30 Dec 2022" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="0dp"
+            android:layout_weight="10"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textColor="@color/textColorTitle"
+            android:textSize="@dimen/title"
+            android:textStyle="bold"
+            tools:text="Long placeholder for title that should wrap to more than 3 lines of text. Long placeholder for title that should wrap to more than 3 lines of text" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text=">"
+            android:textColor="@color/textColorAuthor"
+            android:textSize="@dimen/greather_sign" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/medium"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-medium"
+        android:maxLines="1"
+        android:textAllCaps="true"
+        android:textColor="@color/textColorAuthor"
+        android:textSize="@dimen/author"
+        tools:text="Samuel Lion" />
+
+</LinearLayout>

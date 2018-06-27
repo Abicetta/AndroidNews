@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Android News</string>
+
+    <!-- Text to display in the list when there are no articles [CHAR LIMIT=NONE] -->
+    <string name="no_articles">No articles found.</string>
+    <string name="no_internet">No internet connection</string>
+
+    <!-- strings for settings -->
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">Android News Settings</string>
+
+    <string name="settings_num_shown_label">Number of articles to show</string>
+    <string name="settings_num_shown_key" translatable="false">page-size</string>
+    <string name="settings_num_shown_default" translatable="false">10</string>
+
+    <string name="settings_query_label">Search a keyword</string>
+    <string name="settings_query_key" translatable="false">q</string>
+    <string name="settings_query_default" translatable="false">android</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order-by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <!-- Label for order-by newest option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <!-- Label for order-by oldest [CHAR LIMIT=20] -->
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <!-- Label for order-by relevance [CHAR LIMIT=20] -->
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+</resources>

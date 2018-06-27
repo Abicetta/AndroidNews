@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2f2f2f</color>
+    <color name="colorPrimaryDark">#252525</color>
+    <color name="colorAccent">#4A7BA7</color>
+
+    <!-- color of background rectangle for date and section (no tech)-->
+    <color name="color_bkg_date">#4A7BA7</color>
+
+    <!-- color of background rectangle for date section technology -->
+    <color name="color_bkg_date_tech">#3d733b</color>
+
+    <!-- Text color for the author in the list item -->
+    <color name="textColorAuthor">#B4BAC0</color>
+
+    <!-- Text color for the title in the list item -->
+    <color name="textColorTitle">#2B3D4D</color>
+
+</resources>
