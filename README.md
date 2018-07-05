@@ -4,7 +4,7 @@ This is an exercise for Udacity Android Basics Nanodegree. The goal is to create
 The app contains a main which displays multiple news stories about android.
 The stories shown on the main screen update properly whenever new news data is fetched from the API by https://open-platform.theguardian.com/documentation/
 
-The main screen with the list of news. I made the tecnology section green colored, the other sections blue.
+The main screen with the list of news. I made the Technology section green colored, the other sections blue.
 
 ![main screen](https://github.com/Abicetta/AndroidNews/blob/master/app/src/main/res/drawable/a_news_screen4.png)
 
