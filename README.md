@@ -6,11 +6,11 @@ The stories shown on the main screen update properly whenever new news data is f
 
 The main screen with the list of news. I made the tecnology section green colored, the other sections blue.
 
-![main screen](https://github.com/Abicetta/AndroidNews/blob/master/app/src/main/res/drawable/a_news:screen_4.png)
+![main screen](https://github.com/Abicetta/AndroidNews/blob/master/app/src/main/res/drawable/a_news_screen_4.png)
 
 The preferences screen
 
-![main screen](https://github.com/Abicetta/AndroidNews/blob/master/app/src/main/res/drawable/a_news:screen_3.png) ![main screen](https://github.com/Abicetta/AndroidNews/blob/master/app/src/main/res/drawable/a_news:screen_1.png)
+![main screen](https://github.com/Abicetta/AndroidNews/blob/master/app/src/main/res/drawable/a_news_screen_3.png) ![main screen](https://github.com/Abicetta/AndroidNews/blob/master/app/src/main/res/drawable/a_news_screen_1.png)
 
 
 # Skills
