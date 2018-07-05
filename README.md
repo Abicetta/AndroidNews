@@ -8,12 +8,9 @@ The main screen with the list of news. I made the tecnology section green colore
 
 ![main screen](https://github.com/Abicetta/AndroidNews/blob/master/app/src/main/res/drawable/a_news_screen4.png)
 
-The preferences screen
+The settings screen
 
-![preferences screen](https://github.com/Abicetta/AndroidNews/blob/master/app/src/main/res/drawable/a_news_screen3.png)
-
-![preferences screen](https://github.com/Abicetta/AndroidNews/blob/master/app/src/main/res/drawable/a_news_screen1.png)
-
+![settings screen](https://github.com/Abicetta/AndroidNews/blob/master/app/src/main/res/drawable/a_news_screen3.png)  ![settings screen](https://github.com/Abicetta/AndroidNews/blob/master/app/src/main/res/drawable/a_news_screen1.png)
 
 # Skills
 
