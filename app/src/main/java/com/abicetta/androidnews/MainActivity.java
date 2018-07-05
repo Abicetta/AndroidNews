@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         // buildUpon prepares the baseUri that we just parsed so we can add query parameters to it
         Uri.Builder uriBuilder = baseUri.buildUpon();
         // Append query parameter and its value. For example, the `show-tags=contributor`
-       "q", FIXED_QUERY.concat(queryArticles));
+        uriBuilder.appendQueryParameter("q", FIXED_QUERY.concat(queryArticles));
         uriBuilder.appendQueryParameter("show-tags", "contributor");
         uriBuilder.appendQueryParameter("page-size", numArticles);
         uriBuilder.appendQueryParameter("order-by", orderBy);
